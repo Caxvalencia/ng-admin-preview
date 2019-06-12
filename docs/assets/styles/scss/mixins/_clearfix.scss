@@ -1,0 +1,12 @@
+// -----------------------------------
+// Source code from Bootstrap v4 Sass
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/mixins/_clearfix.scss
+// -----------------------------------
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}

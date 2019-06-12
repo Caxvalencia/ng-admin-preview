@@ -1,0 +1,151 @@
+// -----------------------------------
+// Source code from Bootstrap v4 Sass
+// https://github.com/twbs/bootstrap/blob/v4-dev/scss/utilities/_text.scss
+// -----------------------------------
+
+// stylelint-disable declaration-no-important
+
+//
+// Text
+//
+
+.text-monospace {
+  font-family: $font-family-monospace;
+}
+
+// Alignment
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-truncate {
+  @include text-truncate;
+}
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left {
+      text-align: left !important;
+    }
+    .text#{$infix}-right {
+      text-align: right !important;
+    }
+    .text#{$infix}-center {
+      text-align: center !important;
+    }
+  }
+}
+
+// Transformation
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+// Weight and italics
+
+.font-weight-light {
+  font-weight: $font-weight-light !important;
+}
+
+.font-weight-lighter {
+  font-weight: $font-weight-lighter !important;
+}
+
+.font-weight-normal {
+  font-weight: $font-weight-normal !important;
+}
+
+.font-weight-bold {
+  font-weight: $font-weight-bold !important;
+}
+
+.font-weight-bolder {
+  font-weight: $font-weight-bolder !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+// Weight and italics
+
+.font-weight-normal {
+  font-weight: normal !important;
+}
+
+// Misc
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+// Reset
+
+.text-reset {
+  color: inherit !important;
+}
+
+// ---------------
+// Customization
+// ---------------
+
+// Size
+
+.text-xs {
+  font-size: 50% !important;
+}
+
+.text-sm {
+  font-size: 70% !important;
+}
+
+.text-md {
+  font-size: 80% !important;
+}
+
+.text-df {
+  font-size: 13px !important;
+}
+
+.text-lg {
+  font-size: 110% !important;
+}
+
+.text-xl {
+  font-size: 120% !important;
+}
+
+.text-xxl {
+  font-size: 60px !important;
+}
+
+// Contextual colors
+
+@include text-emphasis-variant('.mat-text-white', #fff);
+@include text-emphasis-variant('.mat-text-muted', mat-color($foreground, secondary-text));
+@include text-emphasis-variant('.mat-text-default', mat-color($foreground, base));
+@include text-emphasis-variant('.mat-text-primary', mat-color($primary));
+@include text-emphasis-variant('.mat-text-warn', mat-color($warn));
+@include text-emphasis-variant('.mat-text-accent', mat-color($accent));

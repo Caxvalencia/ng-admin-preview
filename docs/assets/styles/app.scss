@@ -1,0 +1,12 @@
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+@import "~bi-app-sass/bi-app/bi-app-ltr";
+// Material config
+@import "scss/material/variables";
+@import "scss/material/themes";
+// Core variables and mixins
+@import "scss/app.variables";
+@import "scss/mixins";
+// Core styles
+@import "scss/core";
+@import "scss/material-config";
+@import "scss/utilities";

@@ -1,0 +1,20 @@
+{
+  "HOME": "Inicio",
+  "COMPONETS": "Componentes",
+  "BUTTON": "Botón",
+  "CARDS": "Tarjetas",
+  "SELECT": "Lista de selección",
+  "CHECKBOX": "Checkbox",
+  "TABS": "Tabs",
+  "TYPOGRAPHY": "Tipografía",
+  "PAGES": "Páginas",
+  "BLANK": "En blanco",
+  "SESSION": "Sesión",
+  "SIGNIN": "Iniciar sesión",
+  "SIGNUP": "Registro",
+  "FORGOT": "Olvido contraseña",
+  "LOCKSCREEN": "Bloqueo de pantalla",
+  "ERROR": "Error",
+  "DOCS": "Documentación",
+  "USER": "Usuario"
+}

@@ -1,0 +1,28 @@
+{
+  "HOME": "Home",
+  "COMPONETS": "Components",
+
+  "BUTTON": "Button",
+  "CARDS": "Cards",
+  "SELECT": "Select",
+  "CHECKBOX": "Checkbox",
+  "TABS": "Tabs",
+  "MENU": "Menu",
+  "DIALOG": "Dialog",
+  "TABLE": "Table",
+  "TYPOGRAPHY": "Typography",
+
+  "PAGES": "Pages",
+  "USER": "User",
+  "BLANK": "Blank",
+
+  "SESSION": "Session",
+  "404": "404",
+  "SIGNIN": "Signin",
+  "SIGNUP": "Signup",
+  "FORGOT": "Forgot",
+  "LOCKSCREEN": "Lockscreen",
+  "ERROR": "Error",
+
+  "DOCS": "Docs"
+}
